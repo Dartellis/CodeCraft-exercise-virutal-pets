@@ -16,7 +16,6 @@ $(document).ready(function(){
 	function existencialBurden() {
 		setTimeout(function(){ 
 			controller.forcePetsToFaceExistencialBurden();
-			console.log('hello');
 			existencialBurden();
 			view.showAllPets();
 		}, 3000);
